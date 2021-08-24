@@ -1,0 +1,27 @@
+.each-presaled-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  background: rgba(0, 0, 0, 0.705);
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 2vh auto;
+}
+
+.each-presaled-item button,
+.each-presaled-item a {
+  margin: 1vh !important;
+}
+.each-presaled-item div h2,
+.each-presaled-item div h3 {
+  color: white;
+  text-align: left;
+}
+@media only screen and (max-width: 1200px) {
+  .each-presaled-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

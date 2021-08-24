@@ -1,0 +1,43 @@
+.eleven {
+  position: relative;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+.eleven h1 {
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+  height: 12vh;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+}
+
+.eleven h1:before {
+  position: absolute;
+  left: 0;
+  top: 75%;
+  bottom: 20px;
+  width: 60%;
+  left: 50%;
+  margin-left: -30%;
+  height: 1px;
+  border: none !important;
+  content: "";
+  background-color: rgb(255, 255, 255);
+  z-index: 4;
+}
+.eleven h1:after {
+  position: absolute;
+  top: 49%;
+  height: 40px;
+  left: 49%;
+  bottom: 0px;
+  content: "\00a7";
+  line-height: 40px;
+  color: #ffffff;
+  font-weight: 400;
+  z-index: 5;
+  display: block;
+  background-color: transparent;
+}

@@ -1,0 +1,70 @@
+.checkboxes {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 4vh;
+}
+/*  */
+.checkboxes div input {
+  width: 18px;
+  cursor: pointer;
+  height: 18px;
+  margin: 1vh 0;
+}
+.search-component {
+  width: 20% !important;
+}
+
+.search-component input {
+  border-radius: 10px;
+  color: white;
+  background: transparent !important;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.search-component input:hover {
+  border-color: rgb(146, 158, 38) !important;
+}
+.search-component input:focus {
+  border-color: rgb(146, 158, 38) !important;
+}
+.ant-btn,
+.ant-btn-icon-only,
+.ant-input-search-button {
+  color: black !important;
+  outline: none !important;
+  background: rgb(255, 255, 255) !important;
+}
+
+.ant-input-search-button:hover,
+.ant-input-search-button:focus {
+  border-color: rgb(146, 158, 38) !important;
+}
+.show-filter {
+  background: rgba(0, 0, 0, 0.39);
+  color: white;
+  margin: 2vh 1vw;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+.show-filter:hover {
+  cursor: pointer;
+  background: rgb(146, 158, 38);
+  /* border-color: rgb(146, 158, 38); */
+}
+.checkboxes {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .checkboxes {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

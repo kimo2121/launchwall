@@ -1,0 +1,33 @@
+.single-user {
+  background: rgba(0, 0, 0, 0.514);
+  color: white;
+  width: 70%;
+  border-radius: 20px;
+  margin: 2vh auto;
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+}
+.single-user h2,
+.single-user h3 {
+  color: white;
+}
+.network-other-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+.network-other-details {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.user-details {
+  text-align: left;
+}
+@media only screen and (max-width: 1200px) {
+  .network-other-details-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,15 @@
+.launch-pad input {
+  margin-right: 0.5vw !important;
+  /* display: block !important; */
+}
+.launch-pad div {
+  width: fit-content;
+  display: flex !important;
+  margin: 0;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.launch-pad {
+  padding-left: 10px;
+}

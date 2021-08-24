@@ -1,0 +1,30 @@
+export interface FilterTypes {
+  ethereumCheck?: (e: any) => void;
+  bscCheck?: (e: any) => void;
+  polygonCheck?: (e: any) => void;
+  upcomingCheck?: (e: any) => void;
+  openCheck?: (e: any) => void;
+  auditedCheck?: (e: any) => void;
+  notAuditedCheck?: (e: any) => void;
+  auditTBDCheck?: (e: any) => void;
+  notDoxxedCheck?: (e: any) => void;
+  doxxedCheck?: (e: any) => void;
+  doxTBDCheck?: (e: any) => void;
+  uniCryptCheck?: (e: any) => void;
+  dxSaleCheck?: (e: any) => void;
+  othersCheck?: (e: any) => void;
+  uniCrypt?: string;
+  dxSale?: string;
+  others?: string;
+  ethereum?: string;
+  bsc?: string;
+  polygon?: string;
+  upcoming?: string;
+  open?: string;
+  audited?: string;
+  notAudited?: string;
+  auditTBD?: string;
+  doxxed?: string;
+  notDoxxed?: string;
+  doxTBD?: string;
+}

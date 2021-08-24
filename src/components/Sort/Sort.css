@@ -1,0 +1,27 @@
+.sort-btn {
+  color: white;
+  font-size: 14px;
+  margin: 1vh 0.5vw;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all 0.2s;
+}
+.sort-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 0 auto;
+}
+.sort-btn:disabled {
+  background: gray;
+}
+.sort-btn:disabled:hover {
+  border-color: white;
+}
+.sort-btn:hover {
+  cursor: pointer;
+  border-color: rgb(146, 158, 38);
+}
