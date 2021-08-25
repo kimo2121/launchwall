@@ -32,7 +32,12 @@ a:hover {
 .launchwall-logo p {
   font-size: 18px;
   display: flex;
-  margin: 0;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 1vh;
+  padding: 5px 30px;
+  border: 1px solid white;
+  border-radius: 10px;
   justify-content: center;
   align-items: center;
   font-family: sans-serif;

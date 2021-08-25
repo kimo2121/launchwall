@@ -7,6 +7,7 @@ interface ITypes {
     description1?: string;
     description2?: string;
     description3?: string;
+    description4?: string;
     twitterFollowers?: number;
     telegramMembers?: number;
     tweets?: number;
@@ -23,15 +24,16 @@ interface ITypes {
 }
 export const data: ITypes["users"] = [
   {
-    username: "kimo",
-    tag: "kareem",
-    score: 69,
+    username: "GATE",
+    tag: "IDOGATE",
+    score: 79,
     launchdate: "",
     description1:
-      "vEmpire's goal is to highlight centralisation in supposedly decentralised projects & bring power back to the communities, where their founders, contributors and whales have and will not, relinquish control. vEmpire is only the fourth project to be accepted into Unicrypts incubator, and the first protocol to state their aim to invade another.",
-    description2: "SC/HC: 360 / 720 - %LP: 60% - min/max buy: 0 / 2",
-    description3:
-      "A $UNCX pump may indicate demand for upcoming presales. Price and 24-hour % change: $662.44 / 11.42%",
+      "$GATE Private Sale is live.This is the only opporunity to guy $GATE at the cheapest price possible",
+    description2:
+      "IDOGATE is on a mission to be the first super utility token that will be used across the IDOGATE ecosystem and also rewards holders in BNB. when launched, IDOGATE will provide a safe platform for any user to research, manage current and future IDO(Initial Dex Offerings) and Token Presales on over 50 Launchpads and 5 Blockchains.",
+    description3: "SC/HC: 360 / 720 - %LP: 60% - min/max buy: 0 / 2",
+    description4: "Milestone 6k Telegram Members Reached in 48 Hours",
     twitterFollowers: 1657,
     telegramMembers: 2410,
     tweets: 274,
