@@ -35,7 +35,7 @@ export const data: ITypes["users"] = [
     description3: "SC/HC: 360 / 720 - %LP: 60% - min/max buy: 0 / 2",
     description4: "Milestone 6k Telegram Members Reached in 48 Hours",
     twitterFollowers: 1657,
-    telegramMembers: 2410,
+    telegramMembers: 7680,
     tweets: 274,
     launchpad: "Unicrypted",
     network: "Ethereum",
