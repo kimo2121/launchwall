@@ -19,7 +19,7 @@ const SingleUser: React.FC<IProps> = ({ value }) => {
       <div className="user-details">
         <div className="network-other-details-container">
           <div>
-            <h2 style={{ margin: "0" }}>${value.username}</h2>
+            <h2 style={{ margin: "0", display: "block" }}>${value.username}</h2>
             <h3>{value.tag}</h3>
           </div>
           <div className="network-other-details">
@@ -46,8 +46,7 @@ const SingleUser: React.FC<IProps> = ({ value }) => {
             </button>
           </div>
         </div>
-
-        <div style={{ paddingLeft: "10px" }}>
+        <div className="single-user-desc">
           <p>
             🗳️ Score: <strong>{value.score}</strong>
           </p>
@@ -82,7 +81,6 @@ const SingleUser: React.FC<IProps> = ({ value }) => {
             </button>
           ) : undefined}
         </div>
-
         {graph && (
           <div>
             {value?.twitterFollowers && <SocialStatistics value={value} />}

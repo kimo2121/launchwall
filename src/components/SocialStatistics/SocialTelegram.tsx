@@ -1,5 +1,6 @@
 import React from "react";
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid } from "recharts";
+import "./styles.css";
+import { AreaChart, Area, XAxis, YAxis, ResponsiveContainer } from "recharts";
 import { FaTelegram } from "react-icons/fa";
 
 const data = [
@@ -86,7 +87,6 @@ const SocialTelegram: React.FC<IType> = ({ value }) => {
           bottom: 0,
         }}
       >
-        <CartesianGrid strokeDasharray="0 5" />
         <XAxis dataKey="name" />
         <YAxis />
         <Area

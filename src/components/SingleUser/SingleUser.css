@@ -13,17 +13,25 @@
   color: white;
 }
 .network-other-details-container {
-  display: flex;
+  display: flex !important;
   justify-content: space-between;
 }
 .network-other-details {
   position: relative;
   display: flex;
+  margin-right: 30px;
   align-items: center;
   flex-wrap: wrap;
 }
 .user-details {
   text-align: left;
+}
+.single-user-desc {
+  padding-left: "10px";
+  width: 67vw;
+}
+.single-user-desc p {
+  width: 80%;
 }
 @media only screen and (max-width: 1200px) {
   .network-other-details-container {

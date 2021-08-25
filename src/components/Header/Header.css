@@ -1,13 +1,25 @@
 .eleven {
   position: relative;
+  margin: 0 auto;
   margin-bottom: 5vh;
   margin-top: 5vh;
+  width: 80%;
+  line-height: 80px;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
 }
 .eleven h1 {
+  color: #ffffff !important;
+}
+/* .eleven h1 {
   margin: 0;
   font-size: 30px;
   text-align: center;
-  height: 12vh;
+  height: 15vh;
   font-family: sans-serif;
   letter-spacing: 2px;
   color: rgb(255, 255, 255);
@@ -16,7 +28,7 @@
 .eleven h1:before {
   position: absolute;
   left: 0;
-  top: 75%;
+  top: 100px;
   bottom: 20px;
   width: 60%;
   left: 50%;
@@ -40,4 +52,28 @@
   z-index: 5;
   display: block;
   background-color: transparent;
+} */
+
+.eleven h1:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: -1.5px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: #ffffff;
+}
+.eleven h1:after {
+  width: 30%;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 20px;
+  margin: 0 auto;
+  /* left: 50%; */
+  /* margin-left: -50px; */
+  background-color: #ffffff;
 }
