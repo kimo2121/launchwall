@@ -23,7 +23,7 @@ const SearchComponent: React.FC = () => {
   };
   const [showFilter, setShowFilter] = useState(false);
   const [showSort, setshowSort] = useState(false);
-  const [uniCrypt, setUniCrypt] = useState("Unicrypted");
+  const [uniCrypt, setUniCrypt] = useState("Unicrypt");
   const [dxSale, setDxSale] = useState("DxSale");
   const [others, setOthers] = useState("Others");
   const [ethereum, setEthereum] = useState("Ethereum");
