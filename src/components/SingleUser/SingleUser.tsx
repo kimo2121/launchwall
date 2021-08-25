@@ -54,7 +54,11 @@ const SingleUser: React.FC<IProps> = ({ value }) => {
           <p>{value?.description1 && <span>🙋 {value?.description1}</span>}</p>
           <p>{value?.description2 && <span>🎩 {value?.description2}</span>}</p>
           <p>{value?.description3 && <span>🦄 {value?.description3}</span>}</p>
-          <p>{value?.description4 && <span> {value?.description4}</span>}</p>
+          <p>
+            {value?.description4 && (
+              <span>Milestone ✅ {value?.description4}</span>
+            )}
+          </p>
           <p>
             {(value.twitterFollowers || value.telegramMembers) && "📈 "}
             {value?.twitterFollowers && (

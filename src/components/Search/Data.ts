@@ -33,7 +33,7 @@ export const data: ITypes["users"] = [
     description2:
       "IDOGATE is on a mission to be the first super utility token that will be used across the IDOGATE ecosystem and also rewards holders in BNB. when launched, IDOGATE will provide a safe platform for any user to research, manage current and future IDO(Initial Dex Offerings) and Token Presales on over 50 Launchpads and 5 Blockchains.",
     description3: "SC/HC: 360 / 720 - %LP: 60% - min/max buy: 0 / 2",
-    description4: "Milestone 6k Telegram Members Reached in 48 Hours",
+    description4: "6k Telegram Members Reached in 48 Hours",
     twitterFollowers: 1657,
     telegramMembers: 7680,
     tweets: 274,
