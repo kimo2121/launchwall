@@ -12,12 +12,12 @@ const LaunchpadFilter: React.FC<FilterTypes> = ({
   return (
     <div className="launch-pad">
       <div>
-        <label htmlFor="Unicrypted">UniCrypt</label>
+        <label htmlFor="Unicrypt">UniCrypt</label>
         <input
-          checked={uniCrypt === "Unicrypted"}
+          checked={uniCrypt === "Unicrypt"}
           type="checkbox"
-          name="Unicrypted"
-          value="Unicrypted"
+          name="Unicrypt"
+          value="Unicrypt"
           onChange={uniCryptCheck}
         />
       </div>

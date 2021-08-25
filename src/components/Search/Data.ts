@@ -37,15 +37,14 @@ export const data: ITypes["users"] = [
     twitterFollowers: 1657,
     telegramMembers: 7680,
     tweets: 274,
-    launchpad: "Unicrypt",
+    launchpad: "DxSale",
     network: "BSC",
     launchStatus: "Upcoming",
     audited: "Audited",
     teamDoxxed: "Doxxed",
-    twitterLink: "https://twitter.com/vEmpiredigital",
-    telegramLink: "https://t.me/vEmpirediscussion",
+    telegramLink: "https://t.me/idogate",
     address:
-      "https://etherscan.com/address/0xcFEB09C3c5F0f78aD72166D55f9e6E9A60e96eEC",
+      "https://bscscan.com/address/0xb432ce32f633829b0abb35a8a0aae961201a098a",
     buy: "https://app.unicrypt.network/amm/uni-v2/ilo/0xF4f759a7Ee12a1DBd9d6d56bd14d5e22ec9348e6",
   },
   {
