@@ -60,7 +60,7 @@ const SingleUser: React.FC<IProps> = ({ value }) => {
             )}
           </p>
           <p>
-            {(value.twitterFollowers || value.telegramMembers) && "📈 "}
+            {(value?.twitterFollowers || value.telegramMembers) && "📈 "}
             {value?.twitterFollowers && (
               <span style={{ marginRight: "1vw" }}>
                 <a href={value?.twitterLink} target="_blank">
