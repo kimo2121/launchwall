@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import { Spin } from "antd";
 import { LoadingOutlined } from "@ant-design/icons";
 import SaveStateProvider, { SaveContext } from "./Context";
-
+import logo from "./assets/images/idogate.png";
 const App: React.FC = () => {
   const [launchPro, setLaunchPro] = useState(false);
   const [savedPresales, setSavedPresales] = useState(false);
@@ -40,9 +40,12 @@ const App: React.FC = () => {
           onClick={() => setLaunchPro(!launchPro)}
           className="launchwall-logo"
         >
-          <h1>Launchwall Prop</h1>
+          <h1>
+            <img src={logo} alt="" />
+          </h1>
           <p>
-            Hunt presales like a pro - click to discover all our products
+            Never miss a X100 project again. click to discover all our full
+            features.
             {launchPro ? (
               <MdKeyboardArrowUp size="30" />
             ) : (
@@ -56,7 +59,7 @@ const App: React.FC = () => {
               onClick={() => setSavedPresales(!savedPresales)}
               className="sort-btn"
             >
-              Save Presales
+              Bookmarked IDOs
             </button>
             <button
               onClick={() => setLaunchedPresales(!launchedPresales)}
@@ -68,20 +71,17 @@ const App: React.FC = () => {
               onClick={() => setTickerMentions(!tickerMentions)}
               className="sort-btn"
             >
-              Ticker Mentions
+              Verified IDOs
             </button>
             <button
               onClick={() => setOpenPresales(!openPresales)}
               className="sort-btn"
             >
-              Open & Upcoming Presales
+              Live & Upcoming Presales
             </button>
-            <a className="sort-btn">Presales Discussion Group / Alerts</a>
+            <a className="sort-btn">IDO Discussion Group / Alerts</a>
             <button disabled className="sort-btn">
-              Presale Portfolio
-            </button>
-            <button disabled className="sort-btn">
-              Comp Tool
+              Joined IDO
             </button>
           </div>
         )}

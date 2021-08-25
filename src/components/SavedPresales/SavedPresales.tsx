@@ -9,7 +9,7 @@ const SavedPresales: React.FC = () => {
 
   return (
     <div className="Saved-presales">
-      <Header headerName="Saved Presales" />
+      <Header headerName="Bookmarked IDOs" />
       <div className="Saved-presales-container">
         {savePresale.length ? (
           savePresale.map((item, indx) => (

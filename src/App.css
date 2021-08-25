@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-top: 5vh;
 }
 .save-presales {
 }
@@ -10,9 +11,13 @@ a:hover {
   margin: 0 auto;
   margin-top: 5vh;
   display: flex;
-  width: 65%;
+  width: 55%;
   flex-direction: column;
   justify-content: center;
+}
+.launchwall-logo img {
+  width: 150px;
+  margin-bottom: 2vh;
 }
 .launchwall-logo h1 {
   color: white;
